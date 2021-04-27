@@ -1,0 +1,114 @@
+// App component
+.app{
+
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.05);
+    padding: 0 250px;
+
+    .nav-link{
+      font-size: 25px;
+      padding: 15px 50px;
+      transition:all 0.3s linear;
+      &:hover{
+        background-color: #007bff80;
+        color: white;
+      }
+
+    }
+  }
+}
+
+// Users component
+.users{
+
+  .users-item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.05);
+    padding: 2rem 2.5rem;
+    height: 100%;
+
+    p{
+      margin: 3px 0;
+    }
+
+    .username{
+      margin: 5px 0 10px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 21px;
+    }
+
+    .logo{
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      border-radius: 50%;
+      border: 3px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 3rem;
+      span{
+        transform: translateY(-5px);
+      }
+    }
+  }
+
+}
+
+// Posts component
+.posts{
+
+  .posts-item{
+    padding: 20px 50px;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.05);
+    height: 100%;
+
+    h5{
+      font-family: cursive;
+    }
+    p{
+      font-family: emoji, serif;
+    }
+  }
+}
+
+
+// Tasks component
+.tasks{
+
+  .tasks-item{
+    height: 100%;
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,0.05);
+    padding: 1rem 3rem;
+
+    .name{
+      font-family: cursive;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    p{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .title{
+      margin-right: 10px;
+      display: inline-block;
+      width: 430px;
+      font-family: sans-serif;
+    }
+
+    .active input{
+      cursor: pointer;
+    }
+
+  }
+}
+
